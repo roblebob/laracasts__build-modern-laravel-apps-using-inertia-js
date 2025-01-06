@@ -1,8 +1,9 @@
 <script>
+    import Nav from '../Shared/Nav.vue';
+
     export default {
-        props: {
-            name: String,
-            frameworks: Array,
+        components: {
+            Nav,
         },
     };
 
@@ -10,15 +11,15 @@
 
 <template>
     <div>
-        <h1>Welcome, {{ name }}</h1>
+        <h1>Home</h1>
 
-        <p>In this series, we use </p>
-
-        <ul>
-            <li v-for="framework of frameworks"  v-text="framework"></li>
-        </ul>
+        <Nav />
     </div>
 </template>
+
+
+
+
 
 <style scoped>
 
