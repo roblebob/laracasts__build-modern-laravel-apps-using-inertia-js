@@ -19,6 +19,9 @@ npm install -D @vue/compiler-sfc
 ```
 
 
+```bash 
+npm install nprogress
+```
 
 
 
