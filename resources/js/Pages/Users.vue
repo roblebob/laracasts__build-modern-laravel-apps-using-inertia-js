@@ -1,16 +1,10 @@
-<script>
+<script setup>
 import Layout from '../Shared/Layout.vue';
 import { Link } from '@inertiajs/vue3';
 
-
-export default {
-    components: {
-        Layout, Link,
-    },
-    props: {
-        time: String
-    },
-};
+defineProps({
+    time: String,
+});
 
 </script>
 
