@@ -1,19 +1,25 @@
 <script setup>
 import {Link} from '@inertiajs/vue3';
+import {defineProps, defineOptions} from 'vue';
+import Layout from "../Shared/Layout.vue";
 
 defineProps({
     time: String,
 });
 
+defineOptions({
+    layout: Layout,
+});
+
 </script>
 
-<script>
-import Layout from '../Shared/Layout.vue';
+<!--<script>-->
+<!--import Layout from '../Shared/Layout.vue';-->
 
-export default {
-    layout: Layout
-};
-</script>
+<!--export default {-->
+<!--    layout: Layout-->
+<!--};-->
+<!--</script>-->
 
 
 <template>
