@@ -2,21 +2,14 @@
 import Layout from '../Shared/Layout.vue';
 
 export default {
-    components: {
-        Layout,
-    },
+    layout: Layout
 };
 
 </script>
 
 <template>
-    <Layout>
-        <h1 class="text-4xl font-bold">Settings</h1>
-    </Layout>
+    <h1 class="text-4xl font-bold">Settings</h1>
 </template>
-
-
-
 
 
 <style scoped>
