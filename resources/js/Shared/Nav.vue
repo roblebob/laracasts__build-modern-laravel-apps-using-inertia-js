@@ -14,12 +14,10 @@ export default {
 
 
 <template>
-    <nav class="mt-6">
-        <ul class="list-disc">
-            <li><NavLink href="/"       :active="$page.url === '/'" >Home</NavLink></li>
-
-            <li><NavLink href="/users"  :active="$page.url.startsWith('/users')" >Users</NavLink></li>
-
+    <nav>
+        <ul class="list-disc flex list-inside space-x-4">
+            <li><NavLink href="/" :active="$page.component === 'Home'" >Home</NavLink></li>
+            <li><NavLink href="/users" :active="$page.component === 'Users'" >Users</NavLink></li>
             <li><NavLink href="/settings" :active="$page.component === 'Settings'" >Settings</NavLink></li>
         </ul>
     </nav>
