@@ -1,11 +1,11 @@
-<script>
-import Layout from '../Shared/Layout.vue';
+<!--<script>-->
+<!--import Layout from '../Shared/Layout.vue';-->
 
-export default {
-    layout: Layout
-};
+<!--export default {-->
+<!--    layout: Layout-->
+<!--};-->
 
-</script>
+<!--</script>-->
 
 <template>
     <h1 class="text-4xl font-bold">Settings</h1>

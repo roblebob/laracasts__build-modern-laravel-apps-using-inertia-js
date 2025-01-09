@@ -1,15 +1,15 @@
 <script setup>
 import {Link} from '@inertiajs/vue3';
 import {defineProps, defineOptions} from 'vue';
-import Layout from "../Shared/Layout.vue";
+// import Layout from "../Shared/Layout.vue";
 
 defineProps({
     time: String,
 });
 
-defineOptions({
-    layout: Layout,
-});
+// defineOptions({
+//     layout: Layout,
+// });
 
 </script>
 
