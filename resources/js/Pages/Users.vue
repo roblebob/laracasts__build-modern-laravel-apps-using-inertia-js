@@ -1,6 +1,6 @@
 <script setup>
 import {Link} from '@inertiajs/vue3';
-import {defineProps, defineOptions} from 'vue';
+//import {defineProps, defineOptions} from 'vue';
 // import Layout from "../Shared/Layout.vue";
 
 defineProps({
