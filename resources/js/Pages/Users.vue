@@ -3,6 +3,8 @@ import {Link} from '@inertiajs/vue3';
 //import {defineProps, defineOptions} from 'vue';
 // import Layout from "../Shared/Layout.vue";
 
+import { Head } from '@inertiajs/vue3';
+
 defineProps({
     time: String,
 });
@@ -23,6 +25,10 @@ defineProps({
 
 
 <template>
+    <Head>
+        <title>Users</title>
+    </Head>
+
     <h1 class="text-4xl font-bold">Users</h1>
 
 
